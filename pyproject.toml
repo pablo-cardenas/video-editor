@@ -7,9 +7,10 @@ module = "videoeditor"
 author = "Pablo Cárdenas"
 author-email = "pablo.cardenas@imca.edu.pe"
 requires = [
-    "pandas",
     "SQLAlchemy",
+    "click",
     "matplotlib",
+    "pandas",
 ]
 
 [tool.flit.scripts]
